@@ -72,8 +72,8 @@ jobs:
           # 编译n66固件:
           cat >> .config <<EOF
           CONFIG_TARGET_bcm47xx=y
-          CONFIG_TARGET_bcm47xx_mips74k=y
-          CONFIG_TARGET_bcm47xx_mips74k_Generic=y
+          CONFIG_TARGET_bcm47xx_generic=y
+          CONFIG_TARGET_bcm47xx_generic_Broadcom-b43=y
           EOF
           
           cat >> .config <<EOF
