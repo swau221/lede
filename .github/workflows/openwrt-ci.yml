@@ -72,8 +72,6 @@ jobs:
           
           cat >> .config <<EOF
           CONFIG_TARGET_IMAGES_GZIP=y
-          CONFIG_KERNEL_BUILD_USER="OpenWrt-CI"
-          CONFIG_KERNEL_BUILD_DOMAIN="Azure"
           EOF
           
           # IPv6支持:
